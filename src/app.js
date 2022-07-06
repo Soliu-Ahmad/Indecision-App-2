@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import IndecisionApp from './components/IndecisionApp';
-import './css/style.css'
+import './css/style.scss'
+import 'normalize.css/normalize.css';
 
 
-// const Layout = (props) => {
-//     return (<div>
-//         <h1>Header</h1>
-//         {props.children}
-//         <p>Footer</p>
-//     </div>)
-// }
+const Layout = (props) => {
+    return (<div>
+        <h1>Header</h1>
+        {props.children}
+        <p>Footer</p>
+    </div>)
+}
 
 
 // /////////////////////////// stateless functional component//////////////////////
